@@ -1,0 +1,424 @@
+header {
+    display: flex;
+    justify-content: space-between; 
+}
+header ul {
+    cursor: pointer;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header ul li {
+    padding: 12px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+header ul li:hover{
+    color: blue;
+    transition: color 800ms;
+}
+.container {
+    max-width: 1200px;
+    margin: 0px 11% 0px 11%;
+    padding-bottom: 80;
+}
+.p {
+    margin-top: 120px;
+    width: 45%;
+    font-family: sans-serif;
+}
+.p h1{
+    font-size: 40px;
+}
+.p p {
+    font-size: 17px;
+}
+.p a {
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px #ffffff solid;
+    border-radius: 30px;
+    padding: 15px ;
+    text-decoration-line: none;
+    color: aliceblue;
+}
+.p a:hover {
+    background-color: blue;
+    border-color: blue;
+    transition: all 800ms;
+}
+.p a:active {
+    background-color: rgb(255, 0, 0);
+    transition: background-color 300ms;
+    border-color: #ff0000;
+}
+.fopa {
+    font-family: sans-serif;
+    margin-top: 150px;
+    font-size: medium;
+}
+.fopa ul li{
+    width: 100%;
+    border-top: 1px #ffffff solid;
+    padding-top: 15px;
+}
+.fopa ul li:hover {
+    border-color: blue;
+    color: blue;
+    transition: all 800ms;
+}
+.fopa ul li:active {
+    border-color: #ff0000;
+    color: red;
+    transition: all 300ms;
+}
+.fopa ul {
+    cursor: pointer;
+    gap: 40px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.negr-bg {
+    background-image: url("img/IMAGEnegr.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-bottom: 20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden ;
+}
+.chaka {
+    margin: 0 25% 0 25%;
+    padding: 80px 0;
+}
+.chaka h3 {
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;  
+}
+.chaka ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    font-size: large;
+    color: #5d5d5d;
+}
+.cyfra {    
+    background-color: rgb(3, 84, 59);
+    border-radius: 30000px;
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #ffffff;
+}
+.chaka p{
+    margin: 0 25%;
+}
+.chaka li{
+    position: relative;
+    width: calc(100% / 3);
+}
+.chaka li+li::before {
+    content: "";
+    height: 1px;
+    width: 50%;
+    top: 45px;
+    left: -25%;
+    position: absolute;
+    background-color: #b7b7b7;
+}
+.evaelf{
+    display: flex;
+    gap: 15%;
+    padding: 80px 11%;
+    background-color: #f7f8f8;
+}
+.jop {
+    width: 45%;
+    font-family: sans-serif;
+}
+.jop h3{
+    font-size: 22px;
+}
+.jop p {
+    font-size: 15px;
+}
+.jop a {
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px #969696 solid;
+    border-radius: 30px;
+    padding: 15px ;
+    text-decoration-line: none;
+    color: rgb(0, 0, 0);
+}
+.jop a:hover {
+    background-color: blue;
+    border-color: blue;
+    transition: all 800ms;
+}
+.jop a:active {
+    background-color: rgb(255, 0, 0);
+    transition: background-color 300ms;
+    border-color: #ff0000;
+}
+.ris {
+    display: flex;
+    gap: 10px;
+    height: 270px;
+}
+.nis {
+    font-family: sans-serif;
+    font-size: medium;
+    margin: 0 11%;
+}
+.nis ul li{
+    width: 100%;
+    border-top: 1px #969696 solid;
+    padding-top: 15px;
+}
+.nis ul li:hover {
+    border-color: blue;
+    color: blue;
+    transition: all 800ms;
+}
+.nis ul li:active {
+    border-color: #ff0000;
+    color: red;
+    transition: all 300ms;
+}
+.nis ul {
+    cursor: pointer;
+    gap: 40px;
+    padding: 0;
+    list-style: url(img/IMAGE2.svg);
+    display: flex;
+    justify-content: space-between;
+}
+.zel {
+height: 680px;
+display: flex;
+background-color: #001414;
+overflow-y: hidden;
+}
+.text {   
+    color: #ffffff;
+    font-family: sans-serif;
+    padding: 300px 200px;
+    font-size: larger;
+    border-left: 1px #005858 solid;
+    border-right: 1px #005858 solid;
+}
+.nabor ul { 
+    align-items: center;
+    margin: 0 11%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+.texty{
+    font-family: sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+}
+.texty a {
+    text-decoration: none;    
+}
+.phone {
+    background-image: url(img/IMAGEphone.png);
+    background-size: cover;
+    height: 738px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #e8e8e8;
+}
+.fuka {
+    display: flex;
+    padding: 5% 11% 10% 11%;
+    font-family: sans-serif;
+    gap: 190px;
+    background-color: #e8e8e8;
+}
+.fuka li {
+    margin: 0 5%;
+    color: #5d5d5d;
+    max-height: 170px;
+}
+.fuka ul {
+    max-width: 550px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    list-style: none;
+}
+.negr {
+    padding: 0 11%;
+}
+.chipi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.chipi a {
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px #b5b5b5 solid;
+    border-radius: 30px;
+    padding: 15px  30px;
+    text-decoration-line: none;
+    color: rgb(0, 0, 0);
+}
+.chipi a:hover {
+    background-color: blue;
+    border-color: blue;
+    transition: all 800ms;
+}
+.chipi a:active {
+    background-color: rgb(255, 0, 0);
+    transition: background-color 300ms;
+    border-color: #ff0000;
+}
+.opat {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.div h3 {
+    margin: 0;
+}
+.div header {
+    font-family: sans-serif;
+    font-size: smaller;
+    display: flex;
+    justify-content: left;
+    color: #c6c6c6;
+    padding-top: 0;
+    align-items: center;
+}
+.div p+p {
+    margin-left: 5%;
+}
+.div img {
+    height: 20px;
+    width: 20px;
+}
+.div {
+    margin-bottom: 100px;
+    border-top: 1px #c6c6c6 solid;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.div:hover {
+    color: blue;
+    transition: all 800ms;
+}
+.div:active {
+    color: red;
+    transition: all 300ms;
+}
+.zelen {
+    background-color: #002d2d;
+    padding: 10% 11%;
+    display: flex;
+    justify-content: space-between;
+    color: #e8e8e8;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.zelen a {
+    background-color: #006a6a;
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px #006a6a solid;
+    border-radius: 30px;
+    padding: 15px  30px;
+    text-decoration-line: none;
+    color: rgb(255, 255, 255);
+}
+.zelen a:hover {
+    background-color: blue;
+    border-color: blue;
+    transition: all 800ms;
+}
+.zelen a:active {
+    background-color: rgb(255, 0, 0);
+    transition: background-color 300ms;
+    border-color: #ff0000;
+}
+.guru {
+    width: 300px;
+}
+.guru h1 {
+    margin-bottom: 40px;
+}
+.zt {
+    margin: 0;
+    padding: 10% 11%;
+    background-color: #001414;
+}
+.osnova {
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+    color: #f7f8f8;
+    gap: 100px;
+    font-family: sans-serif;
+    font-size: 15px ;
+}
+.dopolnenye {
+    padding: 15px 0;
+    margin-top: 15px;
+    list-style: none;
+    border-top: 1px rgb(0, 172, 23) solid;
+    width: 20px;
+    text-align: left;
+}
+.chlen2 {
+    padding-left: 40%;
+}
+.dopolnenye li+li {
+    margin-top: 15px;
+}
+.osnova header {
+    color: #969696;
+    font-size: 10px;
+}
+.posled {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 11% 50px 11%;
+    background-color: #010c00;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #f7f8f8;
+}
+.zak {
+    list-style: none;
+    display: flex;
+}
+.zus {
+    display: flex;
+    list-style: none;
+}
